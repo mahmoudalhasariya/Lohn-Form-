@@ -17,7 +17,7 @@ function LoanForm() {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        console.log(loanInput); // إرسال البيانات أو عرضها
+        console.log(loanInput); 
         setShowModal(true);
     };
 
